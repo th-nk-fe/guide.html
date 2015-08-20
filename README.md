@@ -10,97 +10,118 @@ This structure should be used for the html of your project where possible:
 <!--[if IE 7 ]>    <html lang="en" class="ie7"> <![endif]-->
 <!--[if IE 8 ]>    <html lang="en" class="ie8"> <![endif]-->
 <!--[if IE 9 ]>    <html lang="en" class="ie9"> <![endif]-->
-<!--[if (gt IE 9)|!(IE)]><!--> <html lang="en" class=""> <!--<![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html lang="en" class="">
+<!--<![endif]-->
 <head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, user-scalable=no">
-	
-	<title>Page title</title>
-	<!-- bower:css -->
-	<!-- endbower -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, user-scalable=no">
 
-	<!--site css-->
-	<link rel="stylesheet" href="assets/css/site.css">
-	
-	<link rel="apple-touch-icon" sizes="57x57" href="/assets/favicons/apple-touch-icon-57x57.png">
-	<link rel="apple-touch-icon" sizes="60x60" href="/assets/favicons/apple-touch-icon-60x60.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="/assets/favicons/apple-touch-icon-72x72.png">
-	<link rel="apple-touch-icon" sizes="76x76" href="/assets/favicons/apple-touch-icon-76x76.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="/assets/favicons/apple-touch-icon-114x114.png">
-	<link rel="apple-touch-icon" sizes="120x120" href="/assets/favicons/apple-touch-icon-120x120.png">
-	<link rel="apple-touch-icon" sizes="144x144" href="/assets/favicons/apple-touch-icon-144x144.png">
-	<link rel="apple-touch-icon" sizes="152x152" href="/assets/favicons/apple-touch-icon-152x152.png">
-	<link rel="apple-touch-icon" sizes="180x180" href="/assets/favicons/apple-touch-icon-180x180.png">
-	<meta name="msapplication-TileColor" content="#ffffff">
-	<meta name="msapplication-TileImage" content="/assets/favicons/mstile-144x144.png">
-	<meta name="msapplication-config" content="/assets/favicons/browserconfig.xml"></head></html>
+  <title>Page title</title>
+  <!-- bower:css -->
+  <!-- endbower -->
+  <!--site css-->
+  <link rel="stylesheet" href="assets/css/site.css">
+
+  <link rel="apple-touch-icon" sizes="57x57" href="/assets/favicons/apple-touch-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/assets/favicons/apple-touch-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/assets/favicons/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/assets/favicons/apple-touch-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/assets/favicons/apple-touch-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/assets/favicons/apple-touch-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/assets/favicons/apple-touch-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/assets/favicons/apple-touch-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicons/apple-touch-icon-180x180.png">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/assets/favicons/mstile-144x144.png">
+  <meta name="msapplication-config" content="/assets/favicons/browserconfig.xml">
 </head>
-	
+</html>
+</head>
+
 <body>
 
-	<div class="page">
-		
-		<nav role="navigation" class="page__nav" data-position="top" data-reveal-type="push">
-			<button class="page__nav-close">Close</button>
-			<ul class="nav-menu">
-				<li class="nav-menu__item">
-					<a class="nav-menu__link" href="">Home</a>
-				</li>
-				<li class="nav-menu__item">
-					<a class="nav-menu__link" href="">News</a>
-				</li>
-				<li class="nav-menu__item">
-					<a class="nav-menu__link" href="">Media</a>
-				</li>
-				<li class="nav-menu__item">
-					<a class="nav-menu__link" href="">About</a>
-				</li>
-			</ul>
-		</nav>
+  <div class="page">
 
-		<div class="page__body">
-			<header class="header" role="banner">
-				<h1>Page header</h1>
-				<nav role="navigation" class="header__nav">
-					<ul class="nav-menu">
-						<li class="nav-menu__item">
-							<a class="nav-menu__link" href="">Home</a>
-						</li>
-						<li class="nav-menu__item">
-							<a class="nav-menu__link" href="">News</a>
-						</li>
-						<li class="nav-menu__item">
-							<a class="nav-menu__link" href="">Media</a>
-						</li>
-						<li class="nav-menu__item">
-							<a class="nav-menu__link" href="">About</a>
-						</li>
-					</ul>
-				</nav>
-			</header>
-		
-			<main class="main" role="main">
-				
-			</main>
-		
-			<aside class="sidebar" role="complementary">
-			</aside>
-			
-			<footer class="footer" role="contentinfo">
-			</footer>
-		</div>
-	
-	<!--site js-->
-	<script src="assets/js/app.js"></script>
-	<!--analytics-->
+    <nav role="navigation" class="page__nav" data-position="top" data-reveal-type="push">
+      <button class="page__nav-close">Close</button>
+      <ul class="nav-menu">
+        <li class="nav-menu__item">
+          <a class="nav-menu__link" href="">Home</a>
+        </li>
+        <li class="nav-menu__item">
+          <a class="nav-menu__link" href="">News</a>
+        </li>
+        <li class="nav-menu__item">
+          <a class="nav-menu__link" href="">Media</a>
+        </li>
+        <li class="nav-menu__item">
+          <a class="nav-menu__link" href="">About</a>
+        </li>
+      </ul>
+    </nav>
 
-	</div>
+    <div class="page__body">
+      <header class="header" role="banner">
+        <h1>Page header</h1>
+        <nav role="navigation" class="header__nav">
+          <ul class="nav-menu">
+            <li class="nav-menu__item">
+              <a class="nav-menu__link" href="">Home</a>
+            </li>
+            <li class="nav-menu__item">
+              <a class="nav-menu__link" href="">News</a>
+            </li>
+            <li class="nav-menu__item">
+              <a class="nav-menu__link" href="">Media</a>
+            </li>
+            <li class="nav-menu__item">
+              <a class="nav-menu__link" href="">About</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+      <main class="main" role="main">
+
+      </main>
+
+      <aside class="sidebar" role="complementary"></aside>
+
+      <footer class="footer" role="contentinfo"></footer>
+    </div>
+
+    <!--site js-->
+    <script src="assets/js/app.js"></script>
+    <!--analytics-->
+
+  </div>
 
 </body>
 </html>
 ```
+
+##Syntax
+* Use soft tabs with two spaces—they're the only way to guarantee code renders the same in any environment.
+* Nested elements should be indented once (two spaces).
+* Always use double quotes, never single quotes, on attributes.
+* Don't include a trailing slash in self-closing elements—the HTML5 spec says they're optional.
+* Don’t omit optional closing tags (e.g. </li> or </body>).
+
+
+##Attribute order
+HTML attributes should come in this particular order for easier reading of code.
+
+* class
+* id, name
+* data-*
+* src, for, type, href, value
+* title, alt
+* role, aria-*
+
+Classes make for great reusable components, so they come first. Ids are more specific and should be used sparingly (e.g., for in-page bookmarks), so they come second.
 
 
 ##Helper classes
@@ -112,7 +133,7 @@ These classes are included in the default css and should be used where possible 
 .list
 ```
 
-####To make the list inline (horizontal) then add the following class also:
+####To make the list inline (horizontal) then also add the following class:
 ```css
 .list-inline
 ```
@@ -128,12 +149,12 @@ Use the following classes to align elements horizontally:
 Use the following markup to centrally align elements:
 ```html
 <div class="valign">
-	<p class="align--vertical">text align</p>
+  <p class="align--vertical">text align</p>
 </div>
 ```
 
 ###Hiding elements
-To hide an element use the following class if possible instead of inline styles:
+To hide an element use the following class if possible:
 ```css
 .hide
 ```
@@ -146,11 +167,24 @@ To hide an element at a breakpoint then use the following classes:
 .hide-med-large
 ```
 Where the bit after '.hide-' defines when the element should be hidden (Relies on breakpoints being set).
-S
+
+###Showing elements
+To show an element at a breakpoint then use the following classes:
+```css
+.show-small
+.show-med
+.show-large
+.show-small-med
+.show-med-large
+```
+Where the bit after '.show-' defines when the element should be shown (Relies on breakpoints being set).
+
 ##Truncating single lines of text
 To truncate any content on a single line use the foolowing class:
 ```css
 .truncate
 ```
 >The element will need to have an explicit width set for the truncation to work.
+
+
 
